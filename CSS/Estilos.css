@@ -1,0 +1,214 @@
+/**Esto es un comentario**/
+/**Atributos Globales**/
+body{
+    font-family: 'Lato', sans-serif; 
+}
+
+h1{
+    font-size: 38px;
+}
+
+h2{
+    font-size: 34px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 400px;
+}
+
+/**Utilidades**/
+.centrar-texto{
+     text-align: center;
+}
+
+.seccion{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bloque{
+    display: block!important;
+}
+
+/**Botones para pagina**/
+
+.boton{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 30px;
+    margin: 30px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.btn-naranja{
+   background-color: #E08709;
+}
+
+.btn-verde{
+    background-color: #71B100 ;
+
+}
+/**seccion encabezado**/
+.inicio.site-header{
+    background-image: url(../img/cafeteria.JPEG);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 600px;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.navegacion a{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.navegacion a:hover{
+    color: #71B100;
+}
+
+.contenido-header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenido-header h1{
+    color: white;
+    display: flex;
+    padding-bottom: 20px;
+    max-width: 600px;
+    line-height: 80px;
+}
+
+/**Seccion Nosotros**/
+.nosotros{
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconos{
+    flex-basis: calc(33.3% - 15px);
+    text-align: center;
+}
+
+.modificar-texto{
+    text-transform: uppercase;
+}
+
+/**Estilos de seccion Anuncios**/
+.contenedor-anuncios{
+    display: flex;
+    justify-content: space-between;
+}
+
+.anuncio{
+    flex-basis: calc(33.3% - 10px);
+    border: 1px solid #b5b5b5;
+    background: #F5F5F5;
+}
+
+.contenido-anuncio{
+    padding: 20px;
+}
+.contenido-anuncio h3,
+.contenido-anuncio p{
+    margin: 0;
+}
+
+.precio{
+    color:#71B100;
+    font-weight: 700;
+}
+
+.ver-todas{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.anuncio-iconos{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    max-width: 500px;
+}
+
+.anuncio-iconos li{
+    display: flex;
+}
+
+.anuncio-iconos li img{
+    margin-right: 20px;
+}
+
+/**seccion contacto pagina principakl**/
+.fondo-contacto{
+    background-image: url(../img/cafeteria2.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.contenido-contacto{
+    flex: 1;
+    color: white;
+}
+
+.contenido-contacto p{
+    font-size: 10px;
+}
+
+/**Seccion inferior de la pagina principal**/
+.inferior{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inferior .blog{
+    flex-basis: 60%;
+}
+
+.inferior .testimoniales{
+    flex-basis: calc(40% - 20px);
+}
+
+.entrada-blog{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.entrada-blog:last-of-type{
+    margin-bottom: 0;
+}
+
+.entrada-blog .imagen-blog{
+    flex-basis: 40%;
+}
